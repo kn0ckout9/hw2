@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Duong Form</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+    <h2>Customer Feedback System</h2>
+    <h4>SSO Login</h4>
+
+    <form>
+        Username: <input type="text" name="name"><br>
+        Password: <input type="password" name="pwd"><br><br>
+        Today's Date: <input type="date" name="dob"/><br><br>
+        <table>
+          <tr>
+            <td valign="top">
+              Desired System:<br>
+              <select name="food">
+                <option value="FedEX">Fedex</option>
+                <option value="USPS">USPS</option>
+                <option value="UPS">UPS</option>
+                <option value="Other">Other</option>
+              </select>
+            </td>
+            <td>
+              User Type:<br>
+                <input type="radio" name="pmt" value="Employee" checked>Employee<br>
+                <input type="radio" name="pmt" value="Customer">Customer<br>
+                <input type="radio" name="pmt" value="Vendor">Vendor
+            </td>
+            <td valign="top">
+                Status:<br>
+                <input type="checkbox" name="eatin" value="I am a clown">I am a clown<br>
+                <input type="checkbox" name="member" value="I am not a clown">I am not a clown 
+            </td>          
+          </tr>
+        </table>
+        <input type="submit" value="Submit">   <input type="reset"><br><br>
+        <a href="../index.html">Back to Main page</a><br>
+      </form>
+      
+</body>
+</html>
